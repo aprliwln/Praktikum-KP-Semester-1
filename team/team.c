@@ -1,19 +1,3 @@
-/*
-Then n lines contain three integers each, 
-each integer is either 0 or 1. 
-If the first number in the line equals 1, 
-then Petya is sure about the problem's solution, 
-otherwise he isn't sure.
-
-Input:
-3 (loop)
-1 1 0 (yg satu > 1) = setuju
-1 1 1 (sm) = setuju
-1 0 0 (kurang dri 1) = tdk setuju
-
-Output: 2 (yg setju ada 2)
-*/
-
 #include <stdio.h>
 
 int main(){
@@ -31,4 +15,5 @@ int main(){
         } 
     }
     printf("%d\n" ,count);
+    return 0;
 }
