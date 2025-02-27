@@ -1,25 +1,3 @@
-/*
-- Sebuah password dinyatakan kuat jika terdiri dari 8
-  karakter atau lebih, mengandung karakter abjad huruf
-  besar, huruf kecil, angka, dan karakter khusus
-
-- Password yang tak memenuhi kriteria tersebut, 
-  digolongkan agak kuat jika mengandung lebih dari 12
-  karakter abjad.
-
--Jika bukan kuat atau agak kuat, maka password 
- tergolong lemah.
-
-Input: 123450000000001
-Output: Lemah
-
-Input: Jelek_1222
-Output: Kuat
-
-Input: wkwkwkwkwkwkw
-Output: AgakKuat
-*/
-
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
