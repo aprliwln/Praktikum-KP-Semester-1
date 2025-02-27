@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int total_kandang = 10;
-
-// bebek[i] menyatakan banyaknya bebek pada kandang nomor i.
 int bebek[11];
 
 void kosongkan_kandang() {
@@ -11,7 +9,6 @@ void kosongkan_kandang() {
     }
 }
 
-// Buat fungsi isi_bebek_ke_dalam_kandang() di sini.
 void isi_bebek_ke_dalam_kandang(int nomor_awal, int nomor_akhir, int isi){
     for(int i = nomor_awal; i <= nomor_akhir; i++ ){
         bebek[i] = bebek[i] + isi;
