@@ -1,14 +1,3 @@
-/*
-the oldest brother is number 1
-the middle brother is number 2
-the youngest brother is number 3.
-Given the numbers of the two brothers who arrived on time
-you need to determine the number of the brother who was late.
-
-Input: 3 1
-Output: 2 (late)
-*/
-
 #include <stdio.h>
 
 int main(){
