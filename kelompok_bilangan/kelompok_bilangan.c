@@ -1,26 +1,3 @@
-/*
-bilangan negatif terlebih dahulu
-diikuti nol dan 
-terakhir bilangan positif. 
-Tetapi Pak Dengklek meminta bebek-bebeknya menuliskan 
-kelompok tersebut sesuai urutan pada larik semula.
-
-Input:
-5 = loop
-0
-11
--8
-0
-10
-
-Output:
--8
-0
-0
-11
-10
-*/
-
 #include <stdio.h>
 
 int main(){
