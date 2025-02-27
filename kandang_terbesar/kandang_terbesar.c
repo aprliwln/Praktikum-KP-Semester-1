@@ -9,15 +9,10 @@ int main(){
     luas[3] = 314 * 298;
     luas[4] = 299 * 278;
 
-    // Buat sebuah variabel yang menampung luas terbesar.
-    // Pada awalnya, isi variabel tersebut dengan luas dari kandang pertama.
     int luas_terbesar = luas[5];
 
-    // Untuk setiap kandang sisanya:
     for (int i = 1; i < 5; i++) {
-        // Jika luasnya lebih besar daripada variabel luas terbesar:
         if (luas[i] > luas_terbesar) {
-            // Perbarui nilai variabel luas terbesar dengan luas kandang tersebut.
             luas_terbesar = luas [i];
         }
     }
