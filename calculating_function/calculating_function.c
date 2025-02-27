@@ -1,10 +1,3 @@
-/*
-f(n) =  - 1 + 2 - 3 + .. + ( - 1)n^n
-
-I = 4 ; O = 2
-I = 5 ; O = -3
-*/
-
 #include <stdio.h>
 
 int main(){
