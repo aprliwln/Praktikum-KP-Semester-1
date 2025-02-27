@@ -13,5 +13,5 @@ int main(){
         year++;
     }
     printf("%d" ,year-1);
-
+    return 0;
 }
