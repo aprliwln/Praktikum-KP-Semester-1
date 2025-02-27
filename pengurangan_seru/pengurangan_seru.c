@@ -20,17 +20,3 @@ int main(){
   printf("%d\n" ,x);
   return 0;
 }
-
-/*Jika pakai while
-int n, k;
-sacnf
-while (k > 0){
-  if ( n%10 == 0){
-    n = n/10;
-  }
-  else{
-    n = n-1;
-  }
-  k = k- 1 atau k--;
-}
-*/
