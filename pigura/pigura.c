@@ -1,22 +1,3 @@
-/*
-Input : 
-5
-a
-8
-Output:
-88888
-8aaa8
-8a*a8
-8aaa8
-88888
-
-4 a 8
-8888
-8aa8
-8aa8
-8888
-*/
-
 #include <stdio.h>
 
 int main(){
