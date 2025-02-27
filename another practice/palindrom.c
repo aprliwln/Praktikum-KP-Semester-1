@@ -2,27 +2,6 @@
 #include <stdbool.h>
 #include <string.h>
 
-/*
-bool isPalindrome(int x) {
-    if(x < 0){
-        return false;
-    }
-    int reversed = 0;
-    int y = x;
-    while(y != 0){
-        int temp = y % 10;
-        reversed = (reversed * 10) + temp;
-        y = y / 10;
-    }
-    return (reversed == x);
-}
-
-int main(){
-    int y;
-    scanf("%d" ,&y);
-    isPalindrome(y);
-    return 0;
-}*/
 bool isPalindrome(char name[]);
 
 int main(){
